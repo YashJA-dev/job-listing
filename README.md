@@ -28,7 +28,7 @@ A **Flutter** application for browsing job listings, marking favorites, and stor
 ## 🔧 Installation
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/yourusername/joblisting.git
+git clone https://github.com/YashJA-dev/job-listing.git
 cd joblisting
 flutter pub get
 flutter run
