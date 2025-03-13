@@ -1,16 +1,35 @@
-# joblisting
+# 🏢 Job Listing App
 
-A new Flutter project.
+A **Flutter** application for browsing job listings, marking favorites, and storing data locally using **Hive** and **Flutter Bloc**.
 
-## Getting Started
+## 📌 Features
+✔ **View job listings** from local storage  
+✔ **Search jobs** dynamically  
+✔ **Mark jobs as favorite** and save locally  
+✔ **View job details** with company info, address, and description  
+✔ **Persist favorite jobs** across app restarts using **Hive**  
+✔ **State management with Flutter Bloc**  
+✔ **Navigation using GoRouter**  
+✔ **Custom app icons using `flutter_launcher_icons`**  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Technologies Used
+- **Flutter**
+- **Dart**
+- **Hive** (Local storage)
+- **Flutter Bloc** (State management)
+- **GoRouter** (Navigation)
+- **Equatable** (Efficient state comparison)
+- **flutter_launcher_icons** (App icons)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Installation
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/yourusername/joblisting.git
+cd joblisting
+flutter pub get
+flutter run
+```
